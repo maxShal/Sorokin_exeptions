@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-       /* try{
+        try{
             int x = 5/0;
             System.out.println("Result:"+x);
         }catch(ArithmeticException e){
@@ -26,7 +26,7 @@ public class Main {
             System.out.println("IndexOutOfBoundsException");
         }finally{
             System.out.println("second finally");
-        }*/
+        }
 
         String result = "";
         try(BufferedReader br = new BufferedReader(new FileReader("src/main/resources/exceptions/source.txt"))){
